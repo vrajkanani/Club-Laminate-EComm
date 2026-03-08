@@ -1,0 +1,98 @@
+// Constants for the application
+
+// Order Status
+const ORDER_STATUS = {
+  PENDING: "pending",
+  CONFIRMED: "confirmed",
+  PROCESSING: "processing",
+  SHIPPED: "shipped",
+  DELIVERED: "delivered",
+  CANCELLED: "cancelled",
+};
+
+// Payment Status
+const PAYMENT_STATUS = {
+  PENDING: "pending",
+  PARTIAL: "partial",
+  PAID: "paid",
+  REFUNDED: "refunded",
+  FAILED: "failed",
+  COMPLETED: "completed",
+};
+
+// Payment Modes
+const PAYMENT_MODES = {
+  CASH: "cash",
+  CARD: "card",
+  UPI: "upi",
+  BANK_TRANSFER: "bank_transfer",
+  CHEQUE: "cheque",
+};
+
+// Purchase Order Status
+const PURCHASE_ORDER_STATUS = {
+  DRAFT: "draft",
+  PENDING: "pending",
+  APPROVED: "approved",
+  RECEIVED: "received",
+  CANCELLED: "cancelled",
+};
+
+// Party Types
+const PARTY_TYPES = {
+  CUSTOMER: "customer",
+  SUPPLIER: "supplier",
+};
+
+// Audit Actions
+const AUDIT_ACTIONS = {
+  // Sales Orders
+  SALES_ORDER_CREATED: "SALES_ORDER_CREATED",
+  SALES_ORDER_CONFIRMED: "SALES_ORDER_CONFIRMED",
+  SALES_ORDER_SHIPPED: "SALES_ORDER_SHIPPED",
+  SALES_ORDER_DELIVERED: "SALES_ORDER_DELIVERED",
+  SALES_ORDER_CANCELLED: "SALES_ORDER_CANCELLED",
+
+  // Purchase Orders
+  PURCHASE_ORDER_CREATED: "PURCHASE_ORDER_CREATED",
+  PURCHASE_ORDER_APPROVED: "PURCHASE_ORDER_APPROVED",
+  PURCHASE_ORDER_RECEIVED: "PURCHASE_ORDER_RECEIVED",
+  PURCHASE_ORDER_CANCELLED: "PURCHASE_ORDER_CANCELLED",
+
+  // Products
+  PRODUCT_CREATED: "PRODUCT_CREATED",
+  PRODUCT_UPDATED: "PRODUCT_UPDATED",
+  PRODUCT_DELETED: "PRODUCT_DELETED",
+  STOCK_INCREASED: "STOCK_INCREASED",
+  STOCK_DECREASED: "STOCK_DECREASED",
+  STOCK_ADJUSTED: "STOCK_ADJUSTED",
+
+  // Payments
+  PAYMENT_RECORDED: "PAYMENT_RECORDED",
+  PAYMENT_UPDATED: "PAYMENT_UPDATED",
+
+  // Parties
+  PARTY_CREATED: "PARTY_CREATED",
+  PARTY_UPDATED: "PARTY_UPDATED",
+  PARTY_DELETED: "PARTY_DELETED",
+};
+
+// Entity Types
+const ENTITY_TYPES = {
+  SALES_ORDER: "SalesOrder",
+  PURCHASE_ORDER: "PurchaseOrder",
+  PRODUCT: "Product",
+  PAYMENT: "Payment",
+  PARTY: "Party",
+  CATEGORY: "Category",
+};
+
+module.exports = {
+  ORDER_STATUS,
+  PAYMENT_STATUS,
+  PAYMENT_MODES,
+  PURCHASE_ORDER_STATUS,
+  PARTY_TYPES,
+  AUDIT_ACTIONS,
+  ENTITY_TYPES,
+};
