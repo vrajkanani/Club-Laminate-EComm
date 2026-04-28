@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="container">
-        <div className="row g-5">
+        <div className="row g-4 g-lg-5">
           {/* Brand Section */}
           <div className="col-lg-4">
             <div className="footer-brand">

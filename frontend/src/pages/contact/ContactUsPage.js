@@ -82,7 +82,7 @@ const ContactUsPage = () => {
         <h2 className="section-title">Contact Our Team</h2>
       </div>
 
-      <div className="row g-5">
+      <div className="row g-4 g-lg-5">
         <div className="col-lg-5">
           <div className="glass-panel p-5 h-100">
             <h3 className="font-luxury text-gold mb-4">Get In Touch</h3>

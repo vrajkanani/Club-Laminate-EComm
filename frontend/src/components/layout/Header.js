@@ -136,7 +136,7 @@ const Header = () => {
                 className={`nav-item ${link.name === "Our Products" ? "dropdown" : ""} ${location.pathname === link.path ? "active" : ""}`}
               >
                 {link.name === "Our Products" ? (
-                  <div className="nav-item-wrapper dropdown">
+                  <>
                     <Link
                       to="#"
                       className={`nav-link dropdown-toggle ${isProductDropdownOpen ? "show" : ""}`}
@@ -171,7 +171,7 @@ const Header = () => {
                           </Link>
                         ))}
                     </div>
-                  </div>
+                  </>
                 ) : (
                   <Link
                     to={link.path}

@@ -186,7 +186,7 @@ const HomePage = () => {
       {/* Material Excellence Section */}
       <section className="section-padding">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center g-4 g-lg-5">
             <div className="col-lg-6">
               <div className="section-title-wrapper text-start mb-4">
                 <p className="section-tagline">The Club Advantage</p>
@@ -198,7 +198,7 @@ const HomePage = () => {
                 traditional craftsmanship with modern high-pressure technology
                 to deliver surfaces that last a lifetime.
               </p>
-              <div className="row g-4 mb-5">
+              <div className="row g-3 g-lg-4 mb-5">
                 <div className="col-md-6">
                   <div className="d-flex align-items-center gap-3 text-white">
                     <div className="bg-gold-subtle p-2 rounded-3 text-gold">
@@ -242,7 +242,7 @@ const HomePage = () => {
               </button>
             </div>
             <div className="col-lg-6">
-              <div className="row g-3">
+              <div className="row g-2 g-lg-3">
                 <div className="col-6">
                   <img
                     src="/images/home/img6.jpg"

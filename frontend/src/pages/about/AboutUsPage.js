@@ -57,7 +57,7 @@ function AboutUsPage() {
       {/* Our Story Section */}
       <section className="section-padding">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center g-4 g-lg-5">
             <div className="col-lg-6">
               <div className="section-title-wrapper text-start mb-4">
                 <p className="section-tagline">Since Our Inception</p>
